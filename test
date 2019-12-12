@@ -1,0 +1,102 @@
+static void Main(string[] args)
+        {
+            double vNum, bNum;
+            Console.Write("Escribe el primer numero:");
+            vNum1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Escribe el segundp numero");
+            bNum2 = int.Parse(Console.ReadLine());
+            Console.Clear();
+            if(vNum > bNum)
+            {
+                Console.WriteLine("El primer numero > el segundo");
+            }
+            if (vNum1 > bNum)
+            {
+                Console.WriteLine("El segundo numero > el primero");
+            }
+            if (vNum1 == bNum)
+            {
+                Console.WriteLine("Los numeros son iguales");
+            }
+//2
+
+            double vNum, bNum;
+            Console.Write("Escribe el primer sueldo");
+            vNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Escribe el segundo sueldo");
+            bNum = int.Parse(Console.ReadLine());
+            Console.Clear();
+            if(vNum > bNum)
+            {
+                Console.WriteLine($"El primer numero que es {vNum} mayor que el segundo que es {bNum}");
+            }
+            if (vNum < bNum)
+            {
+                Console.WriteLine($"El segundo numero que es {vNum} mayor que el primero que es {bNum}");
+            }
+            if (vNum == bNum)
+            {
+                Console.WriteLine($"Los numeros {vNum} y {Bnum} son iguales");
+            }
+//3
+            double num1, num2, num3, suma, promedio;
+            Console.Write("Escribe el primer numero: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.Write("Escribe el segundo numero: ");
+            num2 = int.Parse(Console.ReadLine());
+            Console.Write("Escribe el tercero numero: ");
+            num3 = int.Parse(Console.ReadLine());
+
+            if (num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("El primer numero es el mayor");
+            }
+            if (num2 > num3 && num2 > num1)
+            {
+                Console.WriteLine("El segundo numero numero es el mayor");
+            }
+            else
+            {
+                Console.WriteLine("El tercer numero es el mayor");
+            }
+            suma = (num1 + num2 + num3);
+            promedio = ((num1 + num2 + num3) / 3);
+
+            Console.WriteLine("La sumatoria es = " + suma + " y el promedio es = " + promedio);
+
+            Console.ReadKey();
+//4
+                int numero;
+                Console.Write("escribe un numero del 0 al 100: ");
+                numero = int.Parse(Console.ReadLine());
+
+                if (numero < 51)
+                {
+                    Console.WriteLine("Su calificacion es F");
+                }
+                if (numero > 59 && numero < 70)
+                {
+                    Console.WriteLine("Su calificacion es D");
+                }
+                if (numero > 69 && numero < 75)
+                {
+                    Console.WriteLine("Su calificacion es C");
+                }
+                if (numero >= 75 && numero < 80)
+                {
+                    Console.WriteLine("Su calificacion es C+");
+                }
+                if (numero > 79 && numero < 85)
+                {
+                    Console.WriteLine("Su calificacion es B");
+                }
+                if (numero > 84 && numero < 90)
+                {
+                    Console.WriteLine("Su calificacion es B+");
+                }
+                if (numero > 89)
+                {
+                    Console.WriteLine("Su calificacion es A");
+                }
+                Console.ReadKey();
+            }
